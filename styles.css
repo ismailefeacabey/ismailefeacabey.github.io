@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
-    background-color: #F5F5F5;
+    background-color: #b0c4dead;
 }
 #grid {
     display: grid;
@@ -86,10 +86,15 @@ a{
     background-color: #99CCCC;
 }
 
-#H, #He, #C, #N, #O, #F,
-#Ne, #P, #S, #Cl, #Ar, #Se,
-#Br, #Kr, #I, #Xe, #At, #Rn, #Ts, #Og{
+#H, #C, #N, #O, #F,
+#P, #S, #Cl, #Se,
+#Br, #I, #At, #Ts{
     background-color: #CC6868;
+}
+
+#He, #Ne, #Ar, #Kr,
+#Xe, #Rn, #Og{
+    background-color: #ffae008d;
 }
 
 #Li, #Be, #Na, #Mg, #Al, #K,
