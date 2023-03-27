@@ -3,6 +3,12 @@
 body{
     background-color: #b0c4dead;
 }
+.mainTitle {
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-size: 350%;
+    color: #0966dead;
+}
 #grid {
     display: grid;
     grid-template-columns: repeat(18, 0fr);
@@ -83,7 +89,7 @@ a{
 
 #B, #Si, #Ge,
 #As, #Sb, #Te, #Po{
-    background-color: #99CCCC;
+    background-color: #66cccc;
 }
 
 #H, #C, #N, #O, #F,
@@ -94,7 +100,7 @@ a{
 
 #He, #Ne, #Ar, #Kr,
 #Xe, #Rn, #Og{
-    background-color: #ffae008d;
+    background-color: #94ab11;
 }
 
 #Li, #Be, #Na, #Mg, #Al, #K,
@@ -136,10 +142,15 @@ a{
 
 #root{
     display: flex;
+    flex-direction: column;
 }
 
 span {
     font-size: 50px;
+}
+
+.elementPhoto {
+    margin-left: 25%;
 }
 
 .elementName {
